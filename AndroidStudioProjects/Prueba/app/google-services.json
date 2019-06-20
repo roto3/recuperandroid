@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678555125848",
+    "firebase_url": "https://gameweeb-bf1f5.firebaseio.com",
+    "project_id": "gameweeb-bf1f5",
+    "storage_bucket": "gameweeb-bf1f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678555125848:android:0589553f6875b1ef",
+        "android_client_info": {
+          "package_name": "com.example.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678555125848-v01srm9rei7brlakj91utshkdmfirdf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prueba",
+            "certificate_hash": "b9fe4d4f801f41bc9dd50908d5c3d7e8393cc02d"
+          }
+        },
+        {
+          "client_id": "678555125848-lbiulm1tc2075k616kdc6h89r7667h34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkM825cC5HlS9notJQoxhRAIqzYGxH4Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678555125848-lbiulm1tc2075k616kdc6h89r7667h34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

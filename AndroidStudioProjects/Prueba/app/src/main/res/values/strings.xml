@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Prueba</string>
+
+    <!-- String visuals -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="n_veces_pasado">Nº veces pasado</string>
+    <string name="nombre">Nombre:</string>
+    <string name="en_posesi_n">En posesión</string>
+    <string name="no">No</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="ok">OK</string>
+    <string name="_0">0</string>
+    <string name="avance_grado">Avance (grado)</string>
+    <string name="si">Si</string>
+    <string name="formato_f_sico">Formato físico</string>
+    <string name="t_tulo_del_juego">Título del juego</string>
+    <string name="limpiar_filtros">Limpiar filtros</string>
+    <string name="seguro_que_desea_borrar_el_siguiente_juego">¿Seguro que desea borrar el siguiente juego?</string>
+    <string name="textview">TextView</string>
+    <string name="borrar">BORRAR</string>
+    <string name="config">CONFIG</string>
+    <string name="lista">LISTA</string>
+    <string name="a_adir">AÑADIR</string>
+
+    <!--  Preferencias y otras mierdas-->
+    <string-array name="colorsfondo">
+
+        <item>Blanco</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Naranja</item>
+        <item>Morado</item>
+        <item>Por defecto</item>
+
+    </string-array>
+
+
+
+</resources>

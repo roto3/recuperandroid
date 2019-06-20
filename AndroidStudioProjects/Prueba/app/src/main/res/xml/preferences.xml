@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Visual lista grande">
+
+
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colorsfondo"
+            android:entryValues="@array/colorsfondo"
+            android:key="list_preference_1"
+            android:title="Color de fondo" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colorsfondo"
+            android:entryValues="@array/colorsfondo"
+            android:key="list_preference_2"
+            android:title="Color de texto" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

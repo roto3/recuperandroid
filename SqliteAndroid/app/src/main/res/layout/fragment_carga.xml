@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CargaFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnombrealum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#7766E039"
+                    android:text="Alumno nombre" />
+
+                <EditText
+                    android:id="@+id/buscapornombre"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="nombre"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/btncicloalum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#7766E039"
+                    android:text="Alumno ciclo:" />
+
+                <EditText
+                    android:id="@+id/buscaporciclo"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="ciclo"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btntodoprofe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#7EA06060"
+                    android:text="todos profesores" />
+
+                <Button
+                    android:id="@+id/btntodoalumno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#7766E039"
+                    android:text="todos alumnos" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnroyale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4AFFF100"
+                android:text="Todos" />
+
+            <TextView
+                android:id="@+id/textocarga"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:text="por defecto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

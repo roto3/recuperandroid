@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5219E012"
+    tools:context=".fragments.Alumnoadd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Texttitulo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Nombre:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txtnoma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="bottom|left"
+                android:hint="nombre alumno"
+                android:maxLines="1"
+                android:maxLength="30"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Edad:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txtedada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="bottom|left"
+                android:hint="edad alumno"
+                android:inputType="number"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/Text3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Ciclo:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txtcicloa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="bottom|left"
+                android:hint="ciclo alumno"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/Text4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Curso:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txtcursoa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="bottom|left"
+                android:hint="nombre alumno"
+                android:maxLines="1"
+                android:maxLength="30"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/Text5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Nota:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txtnota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="bottom|left"
+                android:hint="nombre alumno"
+                android:maxLines="1"
+                android:maxLength="30"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnadda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir alumno" />
+
+        <Button
+            android:id="@+id/btnclerar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
